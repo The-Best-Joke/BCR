@@ -1,0 +1,813 @@
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+#top-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 55px;
+}
+
+#top-li {
+    float: left;
+}
+
+#top-li a:hover {
+    background-color: #ed1c24;
+}
+
+svg:hover #f { 
+	fill: #3b5998; 
+}
+
+svg:hover #t { 
+	fill: #1da1f2; 
+}
+
+svg:hover #i {
+	fill: #3899EC;
+}
+
+svg:hover #ocf {
+	fill: #3899EC;
+}
+
+.news-headline:hover {
+	color: #3899ec;
+}
+
+
+#main-body {
+	min-width: 980px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#top-bar {
+	height: 55px;
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	background-color: #ab131b;
+}
+
+#top-white-box-1 {
+    display: inline-block;
+    height: 55px;
+    width: 185px;
+    background-color: white;
+}
+
+#top-white-box-1:hover {
+    background-color: #f4f4f4;
+}
+
+#bcr-logo {
+	width: 165px;
+	padding-top: 4px;
+	padding-left: 10px;
+}
+
+.top-bar-links {
+	font-family: 'Fira Sans', sans-serif;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 0.868em;
+	font-weight: 500;
+	padding: 17.3px 16px;
+	display: block;
+}
+
+#top-bar-contact-us {
+	float: right;
+	overflow: hidden;
+}
+
+#right-box {
+    float: right;
+    overflow: hidden;
+    height: 55px;
+}
+
+.icon-box {
+	display: inline-block;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	padding-top: 12px;
+	padding-right: 12px;
+	padding-left: 8px;
+}
+
+#icon-box-1 {
+	display: inline-block;
+}
+
+#icon-box-2 {
+	display: inline-block;
+}
+
+#icon-box-3 {
+	display: inline-block;
+}
+
+#icon-box-4 {
+	display: inline-block;
+	padding-left: 13px;
+}
+
+.social-media-icon {
+	height: 30px;
+    width: 30px;
+}
+
+#ocf {
+	height: 30px;
+}
+
+#first-page {
+	margin: -4px auto auto;
+	height: 100%;
+	position: relative;
+}
+
+#blue-box {
+	background-color: rgba(45, 60, 121, 0.9);
+	width: 530px;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: white;
+	padding: 20px;
+	line-height: 150%;
+	position: absolute;
+	z-index: 500;
+	left: 0;
+	right: 0;
+	top: 22%;
+	margin: 0 auto;
+}
+
+#background-photo {
+	width: 100%;
+	min-width: 980px;
+	position: relative;
+}
+
+#second-page {
+	margin: -4px auto auto;
+	height: 100%;
+	position: relative;
+	text-align: center;
+	padding: 25px;
+	padding-bottom: 75px;
+	overflow: hidden;
+}
+
+#second-page-header {
+	color: #ab131b;
+	font-family: Playfair Display;
+	font-size: 2.5em;
+	padding: 25px;
+}
+
+#second-page-text {
+	width: 700px;
+	margin: auto;
+	text-align: left;
+	font-size: 1.2em;
+	line-height: 1.5;
+	padding-bottom: 25px;
+}
+
+#third-page {
+	margin: -4px auto auto;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+#american-flag {
+	width: 100%;
+	min-width: 980px;
+	position: relative;
+	z-index: 100
+}
+
+#overlay {
+	background-color: rgba(45, 60, 121, 0.9);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 300;
+	position: absolute;
+}
+
+#third-page-header {
+	font-family: Playfair Display;
+	font-size: 2.5em;
+	padding-top: 50px;
+	color: white;
+	z-index: 300;
+}
+
+#third-page-activities {
+	text-align: center;
+	overflow: hidden;
+	z-index: 300;
+}
+
+.activities-top {
+	display: inline-block;
+	color: #ed1c24;
+	font-family: Raleway;
+	font-size: 1.5em;
+	font-weight: 600;
+	padding: 15px;
+}
+
+#activities-2 {
+	padding-right: 25px;
+	padding-bottom: 35px;
+}
+
+.activities-bottom {
+	display: inline-block;
+	color: #ed1c24;
+	font-family: Raleway;
+	font-size: 1.5em;
+	font-weight: 600;
+	padding: 15px;
+}
+
+#third-page-text {
+	font-size: 1.3em;
+	font-family: Iowan Old Style;
+	line-height: 1.5;
+	color: white;
+	padding-bottom: 25px;
+	width: 700px;
+	margin: auto;
+	z-index: 300;
+}
+
+#fourth-page {
+	margin: auto;
+	height: 100%;
+	min-height: 500px;
+	position: relative;
+	text-align: center;
+}
+
+#fourth-page-header {
+	padding: 50px;
+	color: #ab131b;
+	font-size: 2.5em;
+	font-family: Playfair Display;
+}
+
+#box-circle-and-text {
+	display: inline-block;
+	margin: 0px;
+	width: 940px;
+	padding-bottom: 75px;
+	vertical-align: middle;
+}
+
+.fourth-page-boxes {
+	padding: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 255px;
+}
+
+#fourth-page-1-box {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#fourth-page-2-box {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#fourth-page-3-box {
+	display: inline-block;
+}
+
+#fourth-page-4-box {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#fourth-page-5-box {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#fourth-page-6-box {
+	display: inline-block;
+}
+
+#fourth-page-7-box {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#fourth-page-8-box {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#fourth-page-9-box {
+	display: inline-block;
+}
+
+.red-text {
+	font-family: Playfair Display;
+	color: #ab131b;
+}
+
+.grey-text {
+	font-family: Iowan Old Style;
+	color: #434548;
+}
+
+.page-four-images {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	margin:  auto;
+}
+
+#grey-text-1 {
+	width: 150px;
+	margin: auto;
+	font-size: 0.9em;
+}
+
+#grey-text-2 {
+	width: 150px;
+	margin: auto;
+	font-size: 0.9em;
+}
+
+#grey-text-3 {
+	width: 150px;
+	margin: auto;
+	font-size: 0.9em;
+}
+
+#fifth-page {
+	background-color: rgba(45, 60, 121, 1);
+	margin: auto;
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+
+#box-fifth-page-text {
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+#fifth-page-header {
+	font-family: Playfair Display;
+	font-size: 2.5em;
+}
+
+#fifth-page-text {
+	font-family: Iowan Old Style;
+	font-size: 1.4em;
+	line-height: 1.5;
+	width: 500px;
+	margin: auto;
+}
+
+.circle-box {
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 30px;
+}
+
+.fifth-page-circle {
+	border-radius: 50%;
+	height: 170px;
+	width: 170px;
+	background-color: white;
+}
+
+#fifth-page-twitter {
+	width: 60px;
+	height: 60px;
+	margin-top: 30px;
+}
+
+#fifth-page-facebook {
+	width: 50px;
+	height: 50px;
+	margin-top: 40px;
+}
+
+#fifth-page-instagram {
+	width: 50px;
+	height: 50px;
+	margin-top: 40px;
+}
+
+.circle-text {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1em;
+	padding-top: 5px;
+	line-height: 1.2;
+}
+
+#twitter-text {
+	color: #01acec;
+}
+
+#facebook-text {
+	color: #3b579d;
+}
+
+#instagram-text {
+	color: #ed1c24;
+}
+
+#disclaimer {
+	font-family: Chaparral Pro;
+	font-size: 0.8em;
+	font-style: italic;
+	font-weight: 500;
+	color: white;
+	background-color: #ab131b;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+#branding-website {
+	font-family: Playfair Display;
+	color: white;
+	font-size: 0.8em;
+	padding: 30px;
+}
+
+#the-best-joke-website {
+	color: white;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+
+#the-best-joke-website:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+#the-best-joke-website:hover:after {
+	width: 100%;
+	background: white;
+}
+
+#first-page-e {
+	margin: -4px auto auto;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+}
+#container {
+	padding: 25px;
+}
+
+.club-leadership {
+	width: 900px;
+	margin: auto;
+	padding: 25px;
+	overflow: hidden;
+}
+
+.club-leadership-name {
+	font-family: Playfair Display;
+	color: #ab131b;
+	margin-bottom: 0.5em;
+}
+
+.club-leadership-role {
+	font-family: Raleway;
+	font-weight: 600;
+	color: #ab131b;
+}
+
+.club-leadership-image {
+	display: inline-block;
+	width: 200px;
+	float: left;
+	border-radius: 50%;
+	border-color: #ab131b;
+	border-style: solid;
+	border-width: 0.3em;
+	vertical-align: middle;
+	margin-left: 49px;
+	margin-right: 49px;
+}
+
+.club-leadership-text {
+	display: inline-block;
+	width: 590px;
+	float: left;
+	vertical-align: middle;
+}
+
+.club-leadership-paragraph {
+	font-family: Iowan Old Style;
+	color: #434548;
+}
+
+#president {
+	margin-top: 20px;
+}
+
+#vice-president {
+    margin-top: 20px;
+}
+
+#external-vice-president {
+	margin-top: 20px;
+}
+
+#tresurer {
+	margin-top: 20px;
+}
+
+#secretary {
+	margin-top: 20px;
+}
+
+#recent-news-text {
+	font-family: Playfair Display;
+	font-size: 3em;
+	color: #ab131b;
+	padding-bottom: 50px;
+	cursor: default;
+}
+
+#news-page {
+	margin: -4px auto auto;
+	text-align: center;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.news-container {
+	padding: 25px;
+}
+
+.news-image {
+	display:inline-block;
+	width: 350px;
+}
+
+.news-text-container {
+	color: #434548;
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.news-headline {
+	font-family: Playfair Display;
+	font-size: 1.3em;
+	padding-bottom: 10px;
+	color: #434548;
+}
+
+.news-network {
+	font-family: Raleway;
+	font-weight: 600;
+	font-size: 0.9em;
+	color: #ab131b;
+	padding-bottom: 7px;
+}
+
+.news-date {
+	padding-bottom: 10px;
+	font-family: Raleway;
+	color: #ab131b;
+}
+
+.news-summary {
+	font-family: Iowan Old Style;
+	font-weight: 500;
+	font-size: 0.9em;
+}
+
+#events-page {
+	margin: -4px auto auto;
+	padding-top: 75px;
+	padding-bottom: 45px;
+	min-width: 980px;
+	text-align: center;
+}
+
+#events-page-heading {
+	font-family: Playfair Display;
+	font-size: 3em;
+	color: #ab131b;
+	margin: auto;
+	text-align: center;
+	cursor: default;
+	position: relative;
+}
+
+.event-container {
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	min-width: 880px;
+}
+
+.event-date {
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	margin: auto;
+	margin-top: 37px;
+	padding-right: 50px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 1.2em;
+	color: #ab131b;
+}
+
+.name-description-container {
+	display: inline-block;
+	width: 500px;
+	margin: auto;
+	text-align: left;
+}
+
+.event-name {
+	font-family: Playfair Display;
+	color: #ab131b;
+	font-size: 1.8em;
+}
+
+.event-description {
+	color: #434548;
+	font-size: 1.1em;
+	font-family: Iowan Old Style;
+}
+
+.event-button {
+	display: inline-block;
+	vertical-align: top;
+	margin: auto;
+	margin-top: 37px;
+	margin-left: 50px;
+	padding: 15px;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	color:  white;
+	background-color: #3899ec;
+}
+
+.event-button:hover {
+	background-color: #00baff;
+}
+
+#join-us-page {
+	text-align: center;
+	height: 100%;
+}
+
+#mailing-list-container {
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	position: relative;
+	margin-top: 100px;
+	background-color: rgba(45, 60, 121, 1);
+}
+
+#join-us-text-container {
+	vertical-align: top;
+	width: 500px;
+	padding: 50px;
+	display: inline-block;
+	text-align: left;
+}
+
+#join-us-text {
+	font-family: Playfair Display;
+	font-size: 3em;
+	color: #ab131b;
+	cursor: default;
+}
+
+.join-us-paragraph {
+	font-family: Iowan Old Style;
+	font-size: 1.3em;
+	color: #434548;
+}
+
+.sliding-middle-out-red {
+	display: inline-block;
+}
+.sliding-middle-out-red:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out-red:hover:after {
+	width: 100%;
+	background: #ab131b;
+}
+
+.sliding-middle-out-white {
+	color: white;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+
+.sliding-middle-out-white:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out-white:hover:after {
+	width: 100%;
+	background: white;
+}
+
+.sliding-u-l-r-l-red {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.sliding-u-l-r-l-red:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background .5s ease;
+}
+.sliding-u-l-r-l-red:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: #ab131b;
+    transition: width .5s ease;
+}
+.sliding-u-l-r-l-red:hover:before {
+    width: 100%;
+    background: #ab131b;
+    transition: width .5s ease;
+}
+.sliding-u-l-r-l-red:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
